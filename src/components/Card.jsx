@@ -6,7 +6,7 @@ import landingpage from '../images/LandingPage.PNG'
 import htmlwebsite from '../images/htmlwebsite.png'
 import caranimation from '../images/carAnimation.png'
 import calculator from '../images/calculator.png'
-import keeperapp from '../images/keeperapp.png'
+import tindog from '../images/tindog.png'
 
 import subjectgrading from '../images/SubjectGrade.PNG'
 import accountregistration from '../images/AccountRegistration.png'
@@ -58,10 +58,10 @@ const Card = () => {
         },
         {
           id: 7,
-          title: "Keeper App",
-          src: keeperapp,
-          Demo: "https://keeper-app-afiya.netlify.app/",
-          Code: ""
+          title: "Tindog Website",
+          src: tindog,
+          Demo: "https://afiya-tindog-project.netlify.app",
+          Code: "https://github.com/AfiyaZannuba/bootstrap-tindog"
         },
         {
           id: 8,
