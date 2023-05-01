@@ -11,7 +11,10 @@ body{
   .skills-title{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 2rem;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #696868;
+    font-family: 'Merriweather Sans', sans-serif;
   }
   
   .container-skills{

@@ -35,7 +35,15 @@ footer{
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-    color: #cacdd2;
+    color: grey;
+}
+
+.footer-content .email:hover{
+  font-size: 20px;
+  color: #215deb;
+  transition-duration: 2s;
+  transition-property: color;
+  font-weight: bold;
 }
 
 .socials{
@@ -73,7 +81,7 @@ footer{
     text-align: center;
  }
  .footer-bottom p a{
-   color:#9382a4;;
+   color:#160a78;
    font-size: 16px;
    text-decoration: none;
    font-weight: bold;
@@ -104,13 +112,15 @@ footer{
 
   
   .footer-menu ul li a{
-    color: #cfd2d6;
+    color: grey;
     text-decoration: none;
   }
   
   .footer-menu ul li a:hover{
-    color: #9382a4;
+    color: #215deb;
     font-weight: bold;
+    transition-duration: 2s;
+  transition-property: color;
   }
 
   @media (max-width:500px) {

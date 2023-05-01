@@ -87,7 +87,7 @@ const Card = () => {
     return (
       <>
       <div className="row-card">
-      <h2 className='card-title'>Portfolio Projects</h2>
+      <h2 className='card-title'>Portfolio &nbsp; Projects</h2>
       
       {card.map((item) => (
           <>

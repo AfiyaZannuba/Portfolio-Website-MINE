@@ -56,7 +56,9 @@ cursor: pointer;
 }
 
 .site-title:hover{
-  color: red;
+  color: #215deb;
+  transition-duration: 1s;
+  transition-property: margin-right;
 }
 
 .nav a{
@@ -69,7 +71,9 @@ cursor: pointer;
 }
 
 .nav li:hover{
-  color: red;
+  color: #215deb;
+  transition-duration: 1s;
+  transition-property: margin-right;
 }
 
 .nav li{

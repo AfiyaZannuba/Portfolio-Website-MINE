@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-content">
           <h3>MERN STACK DEVELOPER</h3>
           <p>A Portfolio Website Made By Afiya Zannuba Jaleel</p>
-          <p>Email : afiya.zannubaa@gmail.com</p>
+          <p className="email">Email : afiya.zannubaa@gmail.com</p>
           <ul className="socials">
             <li><a href="https://www.linkedin.com/in/afiya-zannuba-jaleel/"><SlSocialLinkedin /></a></li>
             <li><a href="https://github.com/AfiyaZannuba"><FiGithub /></a></li>
