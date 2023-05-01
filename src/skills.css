@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #343434;
+  }
+
+  .skills-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .container-skills{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 20px 40px;
+  }
+  
+  .card-skills{
+    padding: 16px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+  }
+  
+  .row-skills{
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  
+  .row-skills:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 5px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .container-skills {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .container-skills img{
+    width: 50px;
+    height: 50px;
+  }

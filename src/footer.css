@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 100px;
+    background: #413f3f;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: grey;
+    font-weight: 3rem;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.socials a li{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+    
+}
+
+
+
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+ }
+ .footer-bottom p a{
+   color:#9382a4;;
+   font-size: 16px;
+   text-decoration: none;
+   font-weight: bold;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+
+ .footer-menu{
+    float: right;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+    padding: 20px;
+    margin-left: 38%;
+    gap: 2rem;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #9382a4;
+    font-weight: bold;
+  }
+
+  @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }

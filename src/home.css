@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    background-color: #333;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    height: 100%;
+    margin: 50px 20px;
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 5px;
+  }
+
+.row span {
+    margin: 0 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+    color: #696868;
+    
+}
+
+.row h2{
+    font-size: 40px;
+    color: #d3d2d2;
+}
+
+.row span:hover{
+    color: #eb1313;
+}
+
+.row p{
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #d3d2d2;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    margin: 10px 40px;
+  }
+  
+  .section{
+    padding: 16px;
+    text-align: left;
+    border-radius: 50px;
+    background-color: #343434;
+
+    
+  }
+
+  .section h2{
+    margin-left: 40px;
+  }
+
+  .section img{
+    width: 300px;
+    height: 300px;
+    border:none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+  }
+
+  .slide{
+    animation: slideMe .7s ease-in;
+  }
+
+  @keyframes slideMe{
+    0%{
+transform: skewX(180deg) translateX(200px);
+    }
+    100%{
+transform: skew(0deg);
+    }
+  }
+  
+  .resume a{
+    text-decoration: none;
+    color: #d3d2d2;
+  }
+
+  .resume{
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    background-color: #333;
+    color: #d3d2d2;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: none;
+  }
+
+  .resume a{
+    align-items: center;
+    color: #d3d2d2;
+  }
+
+  .title{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .title:hover{
+    color: red;
+  }
