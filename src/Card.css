@@ -98,3 +98,31 @@ border: none;
     color: grey;
 font-weight: bold;
   }
+
+  /* Responsive columns */
+
+
+  @media screen and (max-width: 600px) {
+
+    .card-title{
+      margin-left: 90px;
+      justify-content: center;
+    }
+    .row-card {
+      width: 80%;
+      display: block;
+      margin: 20px;
+    }
+
+   
+  }
+  
+  .row-card img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-card{
+    margin-left: 120px;
+  }
+  

@@ -47,9 +47,10 @@ body{
   /* Responsive columns */
   @media screen and (max-width: 600px) {
     .container-skills {
-      width: 100%;
+      
       display: block;
-      margin-bottom: 20px;
+      margin-left: 0;
+      margin-top: 0;
     }
   }
   

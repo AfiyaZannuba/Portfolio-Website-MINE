@@ -60,9 +60,9 @@
   
   .section{
     padding: 16px;
-    text-align: left;
     border-radius: 50px;
     background-color: #343434;
+    justify-content: space-between;
 
     
   }
@@ -121,3 +121,18 @@ transform: skew(0deg);
   .title:hover{
     color: red;
   }
+
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+
+  .section img{
+    width: 100px;
+    height: 100px;
+    border:none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+  
+  }
+
+
+}

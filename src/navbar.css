@@ -87,9 +87,12 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
+
+
   .nav-icon{
     display: block;
     font-size: 3rem;
+    z-index: 999999;
   }
 
   .nav-links{
@@ -101,16 +104,19 @@ cursor: pointer;
     left: 2%;
     right: 10%;
     background-color: #333;
+    z-index: 999999;
   }
 
   .nav-links.active{
    left: -100%;
+   z-index: 999999;
   }
 
   .nav li{
     padding: 10px;
     margin-left: 7rem;
     font-size: x-large;
+    z-index: 999999;
   }
 
   .btn-title, .site-title{
