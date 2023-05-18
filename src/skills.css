@@ -44,17 +44,19 @@ body{
     margin-top: 5px;
   }
   
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .container-skills {
-      
-      display: block;
-      margin-left: 0;
-      margin-top: 0;
-    }
-  }
   
   .container-skills img{
     width: 50px;
     height: 50px;
+  }
+
+   /* Responsive columns */
+  @media screen and (max-width: 760px) {
+    .container-skills{
+      float: left;
+      width: 35%;
+      padding: 0 10px;
+      margin: 20px 40px;
+    }
+    
   }

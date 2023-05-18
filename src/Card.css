@@ -1,128 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    background-color: #343434;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #343434;
+}
 
-  .card-title{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #696868;
-    font-family: 'Merriweather Sans', sans-serif;
-  }
-  
-  .container-card{
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-    margin: 20px 40px;
-  }
-  
-  .card-card{
-    padding: 16px;
-    text-align: center;
-    border-radius: 50px;
-    background-color: #343434;
-    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
-  }
-  
-  .row-card{
-    margin-top: 50px;
-    margin-left: 60px;
-  }
-  
-  .row-card:after {
-    content: "";
-    display: table;
-    clear: both;
-    margin-top: 5px;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .container-card {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  .container-card img{
-    width: 250px;
-    height: 200px;
-    border-radius: 50px;
-    opacity: 0.9;
-    
-    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px black;
-  }
+.card-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #696868;
+  font-family: "Merriweather Sans", sans-serif;
+}
 
-  .btn-card{
-    display: flex;
-    margin: 20px 50px;
+.container-card {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin: 20px 40px;
+}
+
+.card-card {
+  padding: 16px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #343434;
+  box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+}
+
+.row-card {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.row-card:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 5px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .container-card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.container-card img {
+  width: 250px;
+  height: 200px;
+  border-radius: 50px;
+  opacity: 0.9;
+
+  box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px black;
+}
+
+.btn-card {
+  display: flex;
+  margin: 20px 50px;
+  gap: 1rem;
+}
+
+.btn-card p {
+  font-family: "Merriweather Sans", sans-serif;
+  color: grey;
+  font-weight: bold;
+}
+
+.btn-card button {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #343434;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+  border-radius: 50px;
+  border: none;
+}
+
+.btn-card a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+}
+
+.row-card img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 760px) {
+
+  .btn-card {
+    flex-direction: column;
+    margin: 20px 30px;
     gap: 1rem;
-    
   }
 
-  .btn-card p{
-   
-    font-family: 'Merriweather Sans', sans-serif;
-    color: grey;
-    font-weight: bold;
+  .card-title {
+    margin-left: -30%;
+    justify-content: center;
+  }
+  .row-card {
+    width: 100%;
+    display: block;
+    margin: 0 15%;
   }
 
-  .btn-card button{
-    text-decoration: none;
-padding: 10px 20px;
-margin: 0 5px;
-cursor: pointer;
-background-color: #343434;
-font-family: 'Poppins', sans-serif;
-box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
-border-radius: 50px;
-border: none;
-
-
+  .row-card img {
+    width: 150px;
+    height: 150px;
   }
-
-  .btn-card a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: grey;
-font-weight: bold;
-  }
-
-  /* Responsive columns */
-
-
-  @media screen and (max-width: 600px) {
-
-    .card-title{
-      margin-left: 90px;
-      justify-content: center;
-    }
-    .row-card {
-      width: 80%;
-      display: block;
-      margin: 20px;
-    }
-
-   
-  }
-  
-  .row-card img{
-    width: 200px;
-    height: 200px;
-  }
-
-  .btn-card{
-    margin-left: 120px;
-  }
-  
+}
