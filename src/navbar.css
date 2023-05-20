@@ -124,19 +124,10 @@ cursor: pointer;
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 700px) {
   
   .nav-links{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    top: 130px;
-    left: 2%;
-    right: 10%;
-    background-color: #333;
-    z-index: 999999;
+ 
     height: 1000vh;
-    margin: 0;
   }
 }
