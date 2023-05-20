@@ -125,3 +125,15 @@ body {
     height: 150px;
   }
 }
+
+@media screen and (max-width: 470px){
+  .card-title {
+    margin-left: 10%;
+    justify-content: center;
+  }
+  .row-card {
+    width: 50%;
+    display: block;
+    margin: 0 15%;
+  }
+}

@@ -60,3 +60,23 @@ body{
     }
     
   }
+
+  @media screen and (max-width: 470px) {
+    .container-skills{
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+      margin: 20px 40px;
+    }
+    
+  }
+
+  @media screen and (max-width: 593px) {
+    .container-skills{
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+      margin: 20px 40px;
+    }
+    
+  }

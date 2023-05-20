@@ -122,15 +122,25 @@ footer{
     transition-duration: 2s;
   transition-property: color;
   }
-
+  @media (max-width:800px) {
+    .footer-menu ul{
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    }
+  }
   @media (max-width:500px) {
     .footer-menu ul{
-      display: flex;
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
     }
 
-    .f-menu{
-      margin-right: 50%;
+    .footer-content{
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+     
     }
-    }
+  }
